@@ -19,7 +19,59 @@
   <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/fontawesome.min.css" />
   <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/bootstrap.min.css" />
   <title> 800 Speedy</title>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-803304314"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'AW-803304314');
+        </script>
+<!-- Event snippet for Mobile Number Clicks on Website conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+     
+   <script>
+document.addEventListener("click", function(e) {
+
+  // TEL CLICK
+  if (e.target.closest('a[href^="tel:"]')) {
+    gtag("event", "conversion", {
+      send_to: "AW-803304314/4qhxCOKet4YbEPrmhf8C"
+    });
+
+    if (typeof CG !== "undefined") {
+      CG.conversion();
+    }
+
+    if (typeof initCCConvertion === "function") {
+      initCCConvertion();
+    }
+  }
+
+  // WHATSAPP CLICK
+  if (
+    e.target.closest('a[href*="wa.me"]') ||
+    e.target.closest('a[href*="whatsapp"]')
+  ) {
+
+    gtag("event", "conversion", {
+      send_to: "AW-803304314/8Ax7CKze8cEZEPrmhf8C"
+    });
+
+    if (typeof CG !== "undefined") {
+      CG.conversion();
+    }
+
+    if (typeof initCCConvertion === "function") {
+      initCCConvertion();
+    }
+  }
+
+});
+</script>
 </head>
+
 
 <body>
   <div id="root"></div>

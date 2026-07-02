@@ -25,10 +25,10 @@ const ContactArea = () => {
                 </div>
                 <h6 className="contact-info_title">Phone Number</h6>
                 <p className="contact-info_text">
-                  <a href="tel:0543170355">0543170355</a>
+                  <a href="tel:97154 3170355">97154 3170355</a>
                 </p>
                 {/* <p className="contact-info_text">
-                  <a href="tel:0543170355">0543170355</a>
+                  <a href="tel:97154 3170355">97154 3170355</a>
                 </p> */}
               </div>
             </div>

@@ -70,7 +70,7 @@ const FooterAreaOne = () => {
                 <h3 className="widget_title">Contact</h3>
                 <div className="widget-contact">
                   <p>
-                    <Link to="tel:0543170355">0543170355</Link>
+                    <Link to="tel:+971543170355">+971543170355</Link>
                   </p>
                   <p>
                     <Link to="mailto:info@800speedy.com">info@800speedy.com</Link>
@@ -89,33 +89,36 @@ const FooterAreaOne = () => {
                 </p>
                 <div className="button-wrapper-2 d-none d-md-inline-block">
       
-        <a
-          href="https://api.whatsapp.com/send/?phone=0543170355"
-          className="custom-btn whatsapp-btn wobble-btn"
-          style={{ padding: "8px 12px" }}
-        >
-          <img
-            src={whatsappIcon}
-            alt="WhatsApp"
-            className="btn-icon"
-            style={{ width: "20px", height: "20px" }}
-          />
-          <span style={{ color: "#000" }}>WhatsApp Us</span>
-        </a>
+         <a
+  href="https://wa.me/+971543170355"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="custom-btn whatsapp-btn wobble-btn"
+  style={{ padding: "8px 12px" }}
+>
+  <img
+    src={whatsappIcon}
+    alt="WhatsApp"
+    className="btn-icon"
+    style={{ width: "20px", height: "20px" }}
+  />
+  <span style={{ color: "#000" }}>WhatsApp Us</span>
+</a>
       
-        <a
-          href="tel:+0543170355"
-          className="custom-btn call-btn wobble-btn"
-          style={{ padding: "8px 12px" }}
-        >
-          <img
-            src={call}
-            alt="Call Us"
-            className="btn-icon"
-            style={{ width: "20px", height: "20px" }}
-          />
-          <span style={{ color: "#000" }}>Call Us</span>
-        </a>
+        
+      <a
+  href="tel:+971543170355"
+  className="custom-btn call-btn wobble-btn"
+  style={{ padding: "8px 12px" }}
+>
+  <img
+    src={call}
+    alt="Call Us"
+    className="btn-icon"
+    style={{ width: "20px", height: "20px" }}
+  />
+  <span style={{ color: "#000" }}>Call Us</span>
+</a>
       
       </div>
                 {/* <form className="newsletter-form">
@@ -147,8 +150,10 @@ const FooterAreaOne = () => {
             <div className="col-auto">
               <div className="footer-links">
                 <Link to="/terms-and-conditions">Terms &amp; Condition</Link>
-                <Link to="/privacy-policy">Privacy Policy</Link>
-                <Link to="/contact">Contact Us</Link>
+                <Link to="/privacy-policy" style={{
+                  marginRight:"30px"
+                }}>Privacy Policy</Link>
+                {/* <Link to="/contact">Contact Us</Link> */}
               </div>
             </div>
           </div>
@@ -156,33 +161,36 @@ const FooterAreaOne = () => {
       </div>
       <div className="button-wrapper sticky-bottom">
       
-        <a
-          href="https://api.whatsapp.com/send/?phone=971564018282"
-          className="custom-btn whatsapp-btn wobble-btn"
-          style={{ padding: "8px 12px" }}
-        >
-          <img
-            src={whatsappIcon}
-            alt="WhatsApp"
-            className="btn-icon"
-            style={{ width: "20px", height: "20px" }}
-          />
-          <span style={{ color: "#000" }}>WhatsApp Us</span>
-        </a>
+          <a
+  href="https://wa.me/+971543170355"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="custom-btn whatsapp-btn wobble-btn"
+  style={{ padding: "8px 12px" }}
+>
+  <img
+    src={whatsappIcon}
+    alt="WhatsApp"
+    className="btn-icon"
+    style={{ width: "20px", height: "20px" }}
+  />
+  <span style={{ color: "#000" }}>WhatsApp Us</span>
+</a>
       
-        <a
-          href="tel:+971564018282"
-          className="custom-btn call-btn wobble-btn"
-          style={{ padding: "8px 12px" }}
-        >
-          <img
-            src={call}
-            alt="Call Us"
-            className="btn-icon"
-            style={{ width: "20px", height: "20px" }}
-          />
-          <span style={{ color: "#000" }}>Call Us</span>
-        </a>
+        
+      <a
+  href="tel:+971543170355"
+  className="custom-btn call-btn wobble-btn"
+  style={{ padding: "8px 12px" }}
+>
+  <img
+    src={call}
+    alt="Call Us"
+    className="btn-icon"
+    style={{ width: "20px", height: "20px" }}
+  />
+  <span style={{ color: "#000" }}>Call Us</span>
+</a>
       
       </div>
     </footer>

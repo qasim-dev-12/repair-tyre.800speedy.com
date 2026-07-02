@@ -163,8 +163,8 @@ const CounterOne = () => {
                   <div className="media-body">
                     <h6 className="title text-white">Requesting A Call:</h6>
                     <h4 className="link-2">
-                      <a href="tel:6295550129">
-                        0543170355
+                      <a href="tel:+971543170355">
+                        +971543170355
                       </a>
                     </h4>
                   </div>

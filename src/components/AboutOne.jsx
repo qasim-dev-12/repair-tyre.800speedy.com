@@ -109,33 +109,35 @@ const AboutOne = () => {
              <div className="button-wrapper-2 mt-30">
       
         <a
-          href="https://api.whatsapp.com/send/?phone=0543170355"
-          className="custom-btn whatsapp-btn wobble-btn"
-          style={{ padding: "8px 12px" }}
-        >
-          <img
-            src={whatsappIcon}
-            alt="WhatsApp"
-            className="btn-icon"
-            style={{ width: "20px", height: "20px" }}
-          />
-          <span style={{ color: "#000" }}>WhatsApp Us</span>
-        </a>
+  href="https://wa.me/+971543170355"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="custom-btn whatsapp-btn wobble-btn"
+  style={{ padding: "8px 12px" }}
+>
+  <img
+    src={whatsappIcon}
+    alt="WhatsApp"
+    className="btn-icon"
+    style={{ width: "20px", height: "20px" }}
+  />
+  <span style={{ color: "#000" }}>WhatsApp Us</span>
+</a>
       
-        <a
-          href="tel:+0543170355"
-          className="custom-btn call-btn wobble-btn"
-          style={{ padding: "8px 12px" }}
-        >
-          <img
-            src={call}
-            alt="Call Us"
-            className="btn-icon"
-            style={{ width: "20px", height: "20px" }}
-          />
-          <span style={{ color: "#000" }}>Call Us</span>
-        </a>
-      
+        
+      <a
+  href="tel:+971543170355"
+  className="custom-btn call-btn wobble-btn"
+  style={{ padding: "8px 12px" }}
+>
+  <img
+    src={call}
+    alt="Call Us"
+    className="btn-icon"
+    style={{ width: "20px", height: "20px" }}
+  />
+  <span style={{ color: "#000" }}>Call Us</span>
+</a>
       </div>
               
             </div>

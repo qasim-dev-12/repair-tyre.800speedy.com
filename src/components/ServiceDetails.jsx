@@ -139,7 +139,7 @@ const service = allServices.find(s => s.slug === slug);
                   </div>
                   <p className="widget-contact-text">Need help?</p>
                   <h5>
-                    <Link to="tel:0543170355">0543170355</Link>
+                    <Link to="tel:+971543170355">+971543170355</Link>
                   </h5>
                 </div>
               </div>

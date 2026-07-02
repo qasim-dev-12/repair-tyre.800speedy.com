@@ -13,7 +13,7 @@ const HeroOne = () => {
         <div className="row flex-row-reverse hero-row">
           <div className="col-xl-6">
             <div className="hero-style1">
-              <span className="sub-title text-gold">We are 800SPEEDYyyy</span>
+              <span className="sub-title text-gold">We are 800SPEEDY</span>
               <h1 className="hero-title text-white">
                 Fastest On-Site{" "}
                 <span>
