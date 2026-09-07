@@ -33,8 +33,8 @@
           document.addEventListener('click', function(e){
           if(e.target.closest('a[href^="tel:"]')){
               gtag('event', 'conversion', {'send_to': 'AW-18314189323/Ve40CNvViNwcEIu08ZxE'});
-              CG.conversion();
-              initCCConvertion();
+              if (typeof CG !== "undefined") CG.conversion();
+              if (typeof initCCConvertion === "function") initCCConvertion();
           }
           });
       })();
@@ -43,10 +43,12 @@
     <!-- Event snippet for Whatsapp Conversion Tracking. -->
     <script>
       window.addEventListener('load', function(){
-        jQuery('a[href^="https://wa.me/\"]').click(function(){
-          gtag('event', 'conversion', {'send_to': 'AW-18314189323/b5_JCJuEhdwcEIu08ZxE'});
-          CG.conversion();
-          initCCConvertion();
+        document.addEventListener('click', function(e){
+          if (e.target.closest('a[href^="https://wa.me/"]')) {
+            gtag('event', 'conversion', {'send_to': 'AW-18314189323/b5_JCJuEhdwcEIu08ZxE'});
+            if (typeof CG !== "undefined") CG.conversion();
+            if (typeof initCCConvertion === "function") initCCConvertion();
+          }
         });
       });
     </script>
