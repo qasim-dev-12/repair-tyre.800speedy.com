@@ -118,6 +118,25 @@ const services = [
      img1:"/assets/img/service/fix-puncture-big.png",
     img2:"/assets/img/service/fix-puncture-1.png",
     img3:"/assets/img/service/fix-puncture-2.png"
+  },
+  {
+    id: 7,
+    slug: "fuel-delivery",
+    title: "Fuel Delivery",
+    title_detail: "Emergency On-Site Fuel Delivery Anywhere in Dubai",
+    p1: "Running out of fuel on the highway, in a parking lot, or outside your home can leave you stranded and stressed. At 800 SPEEDY, we deliver petrol or diesel directly to your vehicle's location anywhere in Dubai, so you don't need to walk to a station or wait for a tow truck. Simply tell us your fuel type and location, and our team gets moving right away.",
+    p2: "Our technicians arrive with the correct fuel type in approved containers and refuel your vehicle safely on the spot, checking that everything is in order before they leave. With an average arrival time of 20–30 minutes, we get you back on the road quickly, safely, and without the hassle of a dry tank.",
+    heading_title: "Reliable Emergency Fuel Delivery Service",
+    h1: "Fast on-site petrol and diesel delivery anywhere in Dubai",
+    h2: "Safe refuelling using approved containers and equipment",
+    h3: "No towing needed — we come straight to your location",
+    h4: "Quick 20–30 minute arrival for roadside emergencies",
+    short: "Stranded with an empty tank? We deliver petrol or diesel straight to your location, fast and safely.",
+    image: "/assets/img/service/onsite-fuel-delivery-truck.jpg",
+    icon: "/assets/img/icon/marquee-icon-1-2.svg",
+    img1: "/assets/img/service/onsite-fuel-delivery-truck.jpg",
+    img2: "/assets/img/service/onsite-fuel-delivery-team.jpg",
+    img3: "/assets/img/service/onsite-fuel-delivery-truck.jpg"
   }
 ];
 

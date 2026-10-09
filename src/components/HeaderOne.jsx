@@ -260,6 +260,9 @@ const HeaderOne = () => {
                        <li>
                           <Link to="/service/fix-puncture-tyre">Fix Puncture Tyre</Link>
                       </li>
+                       <li>
+                          <Link to="/service/fuel-delivery">Onsite Fuel Delivery</Link>
+                      </li>
                       {/* <li>
                         <NavLink
                           to="/about"
@@ -523,7 +526,16 @@ const HeaderOne = () => {
         Fix Puncture Tyreee
       </NavLink>
     </li>
-   
+
+    <li>
+      <NavLink
+        to="/service/fuel-delivery"
+        className={(navData) => (navData.isActive ? "active" : "")}
+      >
+        Onsite Fuel Delivery
+      </NavLink>
+    </li>
+
   </ul>
 </li>
 
